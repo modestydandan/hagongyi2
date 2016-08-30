@@ -1,0 +1,156 @@
+/* CSS Document */
+
+/*设置网页的通用默认样式*/
+*{ margin:0px; padding:0px;}
+ul{ list-style:none;}
+body{ font-size:16px;}
+a{ text-decoration:none; color:#000;}
+
+/*网页最外层容器container水平居中*/
+#container{width:980px;margin:0px auto;}
+
+/*头部header的样式设置*/
+#header{ 
+	width:100%;
+	height:150px;
+	background-image:url(images/header_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:-22px 0px;
+	margin-bottom:3px;
+}/*头部header的样式设置结束*/
+
+
+	/*头部header中的logo的样式设置*/
+	.logo{
+		width:269px;
+		height:118px;
+		background-color:#090;
+		float:left;
+	}/*头部header中的logo的样式设置结束*/
+	
+	/*头部header中的up_right_menu的样式设置*/
+	.up_right_menu{
+		width:430px;
+		height:47px;
+		/*background-color:#FCC;*/
+		float:right;
+		padding-top:20px;
+	}
+	.up_right_menu ul li{ float:left; line-height:26px;}
+	.up_right_menu .pic{
+		background-image:url(images/header_icon.png); 
+		background-repeat:no-repeat;
+		width:26px;
+		height:26px;
+		}
+	.up_right_menu .pic1{ background-position:-52px 0px;}
+	.up_right_menu .pic2{ background-position:0px 0px;}
+	.up_right_menu .pic3{ background-position:-26px 0px;}
+	.up_right_menu .pic4{
+		background-position:-78px 0px;
+		width:72px;
+		height:27px;
+		text-align:center;
+	}/*头部header中的up_right_menu的样式设置结束*/
+	
+	/*头部header中的up_right_hello的样式设置*/
+	.up_right_hello{
+		width:530px;
+		height:50px;
+	/*	background-color:#3CC;*/
+		float:right;
+		font:26px bold;
+	}/*头部header中的up_right_hello的样式设置结束	
+
+	/*头部header中的nav的样式设置*/
+	.nav{
+		width:980px;
+		height:30px;
+		/*background-color:#F00;*/
+		clear:both;
+		line-height:30px;
+	}
+	.nav .nav_left{
+		 height:100%;
+		 width:475px;
+		 padding-left:20px;
+		 /*background-color:#F06;*/
+		 float:left;}
+	.nav .nav_right{
+		height:100%;
+		 width:485px;
+		 /*background-color:#06F;*/
+		 float:left;}
+	.nav .nav_right li{ float:left; width:121px; text-align:center; font-weight:bold; font-size:22px;}
+	/*头部header中的nav的样式设置结*/		 
+	
+/*主体部main的样式设置*/
+#main{
+	width:100%;
+	height:650px;
+	/*background-color:#0FF;*/
+}
+	.leftcategory{
+		width:183px;
+		height:585px;
+		padding:36px 10px 20px 10px;
+		background-image:url(images/category.jpg);
+		background-repeat:no-repeat;
+		float:left;
+		margin-right:2px;
+	}
+	.leftcategory h3{ line-height:27px;}
+	.leftcategory li{ float:left; width:61px; height:24px; font-size:12px;}
+	.midcontent{
+		width:527px;
+		height:640px;
+		/*background-color:#FC6;*/
+		float:left;
+		margin-right:2px;
+	}
+	.midcontent_top{ width:100%; height:190px;/* background-color:#0F6;*/ margin-bottom:2px;}
+	/*.midcontent_top #pic1{ display:block;}
+	.midcontent_top #pic2{ display:none;}*/
+	.midcontent_bottom{width:100%; height:400px;
+		background-image:url(images/crazy.png); background-repeat:repeat;
+		padding-top:37px; padding-bottom:3px;}
+	.midcontent_bottom dl{
+		float:left; width:175px; height:133px;}	
+		.midcontent_bottom dl dd{ font-size:14px; text-align:center;}
+		.midcontent_bottom dl dt{ text-align:center;}
+		.midcontent_bottom dl dt img{ width:106px; height:81px; border:1px solid #999;}	
+	
+	.rightsidebar{
+		width:246px;
+		height:640px;
+		/*background-color:#93F;*/
+		float:left;
+	}
+	.rightsidebar_top{width:100%; height:130px; /*background-color:#060;*/ }
+	.rightsidebar_top dt{ float:left;}
+	.rightsidebar_top dd{ font-size:15px; line-height:19px;}
+	.rightsidebar_middle{ width:100%; background-image:url(images/top.jpg);height:234px;background-repeat:no-repeat;padding:55px 2px 5px 15px;}
+		 .rightsidebar_middle dl{ height:58px;}
+		 .rightsidebar_middle dt{ float:left; margin-right:10px;}
+		  .rightsidebar_middle dt img{ border: 1px solid #666;}
+		  .rightsidebar_middle dd{ line-height:50px;}
+	.rightsidebar_bottom{ height:160px; background:#000; color:#FFF; font-size:20px; padding-top:50px}
+	
+	/*主体部main的样式设置结束*/
+
+/*底部footer的样式设置*/
+#footer{
+	width:100%;
+	height:105px;
+	text-align:center;
+	
+}/*底部footer的样式设置结束*/
+/*注册页面样式*/ 
+
+#redister{ background-image:url(images/register.jpg); padding-top:100px; padding-left:120px; padding-bottom:60px;}
+#redister .text_a{ text-align:right;}/*表示用户名等文本又对齐*/
+#redister .w220{ width:220px;}/*表示的是td的宽度     注：因为td的宽度为220，框的宽度为18，所以框的右边可以留出空白*/
+#redister form textarea{ border:#333 solid 1px;}
+#redister form input{ width:175px; height:22px; border:1px solid #666;}/*文本框的大小，边框宽度和使用的灰色实线*/
+
+
